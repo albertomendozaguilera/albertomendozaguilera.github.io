@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción Torneo de Pádel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Inscripción al Torneo de Pádel</h1>
+    <form id="registrationForm">
+        <label for="name">Nombre:<span class="required">*</span></label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="apartment">Apartamento:<span class="required">*</span></label>
+        <input type="text" id="apartment" name="apartment" required>
+
+        <label for="playSide">Juega de:</label>
+        <select id="playSide" name="playSide">
+            <option value="left">Izquierda</option>
+            <option value="right">Derecha</option>
+        </select>
+
+        <button type="submit">Inscribirse</button>
+    </form>
+</div>
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
